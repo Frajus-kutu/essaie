@@ -1,0 +1,16 @@
+.text_actus{
+    font-weight: bold;
+    color: #003366;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.carte_actus{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold ;
+}
+.actus_p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+:hover.carte_act{
+    transform: scale(1.04);
+}

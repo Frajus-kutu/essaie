@@ -1,0 +1,232 @@
+
+
+.navbar{
+    background-color: #003366;
+    color: white;
+}
+.lien {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+:hover.lien {
+    color: yellow;
+    border-bottom: solid 2px yellow;
+    font-weight: bold;
+}
+.card-text{
+    color: #003366;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+ .hero {
+      background-image: url('photo.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5); 
+      backdrop-filter: blur(2px);
+      z-index: 1;
+    }
+     .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .text_content{
+        padding-top: 250px;
+    }
+
+.carou_img{
+    border-radius: 10px;
+}
+
+.bnt_voir{
+   border:solid 1px white;
+
+}
+:hover.bnt_voir{
+    background-color: #003366;
+    color: white ;
+}
+.voir{
+    color: white;
+}
+.info{
+      color: #003366;
+      font-weight:bold; 
+}
+.ligne{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.voir{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold; 
+    text-decoration: none;
+    color: #003366;
+    
+}
+:hover.voir{
+    color: white;
+}
+
+.Publicité{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #003366;
+}
+
+.img_pub{
+    border-radius: 7px;    
+}
+.pub_text{
+    color: black;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pub{
+    width: 100%;
+    background-color: #003366;
+    border-radius: 7px;
+    padding: 20px;
+}
+.pub_C{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: 800;
+    color: white;
+}
+.vol{
+    border-radius: 20px;
+}
+.icon_C{
+    color: white;
+    font-size: 3rem;
+}
+.icon_s{
+    color: #003366;
+    font-size: 3rem;
+}
+
+:hover.coll{
+    transform: scale(1.03);
+
+}
+
+.pub_p{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 400;
+}
+
+.pub_A{
+    border-radius: 7px;
+    padding: 20px;
+    width: 100%;
+    background-color: white
+
+}
+
+.pub_A_C{
+    font-family:  'Times New Roman', Times, serif; 
+    font-weight: 800;
+    color: #003366
+}
+.pub_A_p{
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #003366
+}
+
+/*reservation*/
+.reserv{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+.reserv_col_1{
+    background-image: url(image7.webp);
+    background-size: cover;
+    border-radius: 10px;
+    height: 350px;
+    
+}
+
+.R_col{
+    color: #003366;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px; 
+    font-family: 'Times New Roman', Times, serif;  
+    font-weight: 300;
+}
+.R_text{
+    font-family: 'Times New Roman', Times, serif;  
+    font-weight: 500;
+}
+.case{ 
+    color: white;
+    text-decoration: none;
+
+}
+:hover.case{
+    color: yellow;}
+
+.case_a{
+    color: white;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+.drop{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+}
+.comite{
+    border-radius: 10px;
+    width: 200px;
+}
+.comite1{
+    border-radius: 10px;
+    width: 150px;
+}
+.pied{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.pieds{
+    list-style: none;
+}
+.pub_f{
+    font-family:  'Times New Roman', Times, serif; 
+    font-weight: 800;
+    color: white
+}
+.pub_f1{
+     font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+}
+.ligne{
+    color: white;
+    background-color: white;
+}
+.ligne_a{
+    text-decoration: none;
+    color: #003366;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.bil{
+    background-color: #003366;
+    color: white;
+}
+:hover.C{
+    transform: scale(1.07);
+}
